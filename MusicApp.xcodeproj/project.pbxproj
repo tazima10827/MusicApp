@@ -13,6 +13,12 @@
 		9F8DC6032077631C00992F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DC6022077631C00992F1F /* Assets.xcassets */; };
 		9F8DC6062077631C00992F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DC6042077631C00992F1F /* LaunchScreen.storyboard */; };
 		9F8DC6112077631C00992F1F /* MusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8DC6102077631C00992F1F /* MusicAppUITests.swift */; };
+		9F8DC6222077633800992F1F /* aki.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DC61C2077633800992F1F /* aki.png */; };
+		9F8DC6232077633800992F1F /* natsu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DC61D2077633800992F1F /* natsu.mp3 */; };
+		9F8DC6242077633800992F1F /* ame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DC61E2077633800992F1F /* ame.mp3 */; };
+		9F8DC6252077633800992F1F /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DC61F2077633800992F1F /* natsu.png */; };
+		9F8DC6262077633800992F1F /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DC6202077633800992F1F /* ame.png */; };
+		9F8DC6272077633800992F1F /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9F8DC6212077633800992F1F /* aki.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		9F8DC60C2077631C00992F1F /* MusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8DC6102077631C00992F1F /* MusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppUITests.swift; sourceTree = "<group>"; };
 		9F8DC6122077631C00992F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8DC61C2077633800992F1F /* aki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aki.png; sourceTree = "<group>"; };
+		9F8DC61D2077633800992F1F /* natsu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natsu.mp3; sourceTree = "<group>"; };
+		9F8DC61E2077633800992F1F /* ame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ame.mp3; sourceTree = "<group>"; };
+		9F8DC61F2077633800992F1F /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
+		9F8DC6202077633800992F1F /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
+		9F8DC6212077633800992F1F /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,7 @@
 			children = (
 				9F8DC5FB2077631C00992F1F /* AppDelegate.swift */,
 				9F8DC5FD2077631C00992F1F /* ViewController.swift */,
+				9F8DC61B2077633800992F1F /* Music素材 */,
 				9F8DC5FF2077631C00992F1F /* Main.storyboard */,
 				9F8DC6022077631C00992F1F /* Assets.xcassets */,
 				9F8DC6042077631C00992F1F /* LaunchScreen.storyboard */,
@@ -94,6 +107,19 @@
 				9F8DC6122077631C00992F1F /* Info.plist */,
 			);
 			path = MusicAppUITests;
+			sourceTree = "<group>";
+		};
+		9F8DC61B2077633800992F1F /* Music素材 */ = {
+			isa = PBXGroup;
+			children = (
+				9F8DC61C2077633800992F1F /* aki.png */,
+				9F8DC61D2077633800992F1F /* natsu.mp3 */,
+				9F8DC61E2077633800992F1F /* ame.mp3 */,
+				9F8DC61F2077633800992F1F /* natsu.png */,
+				9F8DC6202077633800992F1F /* ame.png */,
+				9F8DC6212077633800992F1F /* aki.mp3 */,
+			);
+			path = "Music素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +205,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8DC6242077633800992F1F /* ame.mp3 in Resources */,
 				9F8DC6062077631C00992F1F /* LaunchScreen.storyboard in Resources */,
+				9F8DC6232077633800992F1F /* natsu.mp3 in Resources */,
+				9F8DC6272077633800992F1F /* aki.mp3 in Resources */,
 				9F8DC6032077631C00992F1F /* Assets.xcassets in Resources */,
 				9F8DC6012077631C00992F1F /* Main.storyboard in Resources */,
+				9F8DC6262077633800992F1F /* ame.png in Resources */,
+				9F8DC6252077633800992F1F /* natsu.png in Resources */,
+				9F8DC6222077633800992F1F /* aki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
